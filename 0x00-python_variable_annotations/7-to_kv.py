@@ -5,7 +5,7 @@
 from typing import Union, Tuple
 
 
-def to_kv(k: str, v: Union[float, int]) -> Tuple[str, float]:
+def to_kv(k: str, v: Union[float, int]) -> Tuple[str, Union[float, int]]:
     """Takes a string and a float/int and return a tuple
     of the string with the number squared as a float.
 
